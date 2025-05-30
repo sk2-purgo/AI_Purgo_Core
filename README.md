@@ -156,7 +156,7 @@ uvicorn gpt_be_run:app --host 0.0.0.0 --port 5000 --reload
 python purgo_kobert/app/befasttext_kobert/test.py
 ```
 
-### `uvicorn gpt_be_run:app --host 0.0.0.0 --port 5000 --reload`로 서버를 먼저 실행한 후, 새 터미널에서 테스트를 진행하세요.
+### ⚠️ `uvicorn gpt_be_run:app --host 0.0.0.0 --port 5000 --reload`로 서버를 먼저 실행한 후, 새 터미널에서 테스트를 진행하세요.
 ---
 
 ##  모델 성능 참고 메모
@@ -164,8 +164,8 @@ python purgo_kobert/app/befasttext_kobert/test.py
 | 모델 이름                             | 사용 가능 여부 | 비고     |
 | ------------------------------------ | -------- | ------ |
 | nlpai-lab/korean-paraphrase-t5-small | ❌        | 사용 불가  |
-| paust/pko-t5-base                    | ⭕        | 성능 아쉬움 |
 | beomi/KoParrot                       | ❌        | 사용 불가  |
+| paust/pko-t5-base                    | ⭕        | 성능 아쉬움 |
 | digit82/kobart-summarization         | ⭕        | 성능 미흡  |
 | kluebert                             | ⭕        | 성능 미흡  |
 | **KoGPT** (사용 중)                    | ⭕        | 성능 양호  |
