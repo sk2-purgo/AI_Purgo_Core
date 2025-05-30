@@ -120,8 +120,6 @@ pip install sentencepiece pandas tqdm kobert-tokenizer scikit-learn
 ### GPT 관련
 ```bash
 pip install transformers torch sentencepiece
-pip install openai
-pip install openai
 pip install dotenv
 pip install openai==0.28.1
 
