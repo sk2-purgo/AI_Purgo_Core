@@ -16,28 +16,28 @@ FastAPI 기반 웹 서버에서 **FastText + KoBERT + GPT**를 활용하여
 
 ---
 
-## 🌿 주요 브랜치
+##  주요 브랜치
 - `main`: 최종 완성 브랜치
 
 ---
 
-## 🛠 사용 기술 및 라이브러리
+##  사용 기술 및 라이브러리
 
-### ✅ 딥러닝 및 NLP
+###  딥러닝 및 NLP
 - PyTorch, transformers, gluonnlp
 - KoBERT, KoGPT, sentencepiece, fasttext
 
-### ✅ 서버 및 시각화
+###  서버 및 시각화
 - FastAPI, Flask, uvicorn
 - jinja2, matplotlib, pdfkit
 
-### ✅ 데이터 처리 및 기타
+###  데이터 처리 및 기타
 - pandas, scikit-learn, tqdm, requests, os
 - python-dotenv
 
 ---
 
-## 🧠 욕설 탐지 파이프라인
+##  욕설 탐지 파이프라인
 
 ```
 1단계 FastText → 2단계 KoBERT → 3단계 GPT (직렬 조건부 구조)
@@ -71,36 +71,36 @@ purgo_kobert/
 
 ---
 
-## ⚙️ 주요 라이브러리 설치 
-# ✅ 웹 서버 관련 
-pip install flask
-pip install fastapi
-pip install uvicorn
+###  주요 라이브러리 설치 
+##  웹 서버 관련 
+### pip install flask
+### pip install fastapi
+### pip install uvicorn
 
-# ✅ AI 모델 (딥러닝) / NLP 관련
-pip install torch torchvision torchaudio
-pip install transformers==4.10.0
-pip install gluonnlp==0.10.0
-pip install sentencepiece
-pip install kobert-tokenizer
-pip install fasttext
+##  AI 모델 (딥러닝) / NLP 관련
+### pip install torch torchvision torchaudio
+### pip install transformers==4.10.0
+### pip install gluonnlp==0.10.0
+### pip install sentencepiece
+### pip install kobert-tokenizer
+### pip install fasttext
 
-# ✅ 데이터 처리 및 평가 
-pip install pandas
-pip install tqdm
-pip install scikit-learn
+##  데이터 처리 및 평가 
+### pip install pandas
+### pip install tqdm
+### pip install scikit-learn
 
-# ✅ HTTP 통신
-pip install requests
+##  HTTP 통신
+### pip install requests
 
-# ✅ 보고서 및 시각화
-pip install jinja2
-pip install matplotlib
-pip install pdfkit
-pip install tqdm
+#  보고서 및 시각화
+### pip install jinja2
+### pip install matplotlib
+### pip install pdfkit
+### pip install tqdm
 
-# pdf 변환  
-📌 pdfkit 사용 시, 시스템에 wkhtmltopdf가 설치되어 있어야 합니다.
+## pdf 변환  
+### pdfkit 사용 시, 시스템에 wkhtmltopdf가 설치되어 있어야 합니다.
 설치 링크: https://wkhtmltopdf.org/downloads.html
 wkhtmltopdf
 
@@ -120,6 +120,8 @@ pip install sentencepiece pandas tqdm kobert-tokenizer scikit-learn
 ### GPT 관련
 ```bash
 pip install transformers torch sentencepiece
+pip install openai
+pip install openai
 pip install dotenv
 pip install openai==0.28.1
 
@@ -137,7 +139,7 @@ pip install jinja2 matplotlib pandas pdfkit
 
 ---
 
-## 🚀 실행 방법
+##  실행 방법
 
 ### 1. KoBERT 모델 학습
 ```bash
@@ -154,10 +156,10 @@ uvicorn gpt_be_run:app --host 0.0.0.0 --port 5000 --reload
 python purgo_kobert/app/befasttext_kobert/test.py
 ```
 
-⚠️ `uvicorn gpt_be_run:app --host 0.0.0.0 --port 5000 --reload`로 서버를 먼저 실행한 후, 새 터미널에서 테스트를 진행하세요.
+### `uvicorn gpt_be_run:app --host 0.0.0.0 --port 5000 --reload`로 서버를 먼저 실행한 후, 새 터미널에서 테스트를 진행하세요.
 ---
 
-## 📌 모델 성능 참고 메모
+##  모델 성능 참고 메모
 
 | 모델 이름                             | 사용 가능 여부 | 비고     |
 | ------------------------------------ | -------- | ------ |
@@ -171,7 +173,7 @@ python purgo_kobert/app/befasttext_kobert/test.py
 ---
 
 ## 📞 문의
-이슈나 버그는 GitHub Issues 또는 Pull Request를 통해 알려주세요. 감사합니다! 🙇
+### 이슈나 버그는 GitHub Issues 또는 Pull Request를 통해 알려주세요. 감사합니다! 🙇
 
 
 
