@@ -156,7 +156,7 @@ uvicorn gpt_be_run:app --host 0.0.0.0 --port 5000 --reload
 python purgo_kobert/app/befasttext_kobert/test.py
 ```
 
-### ⚠️ `uvicorn gpt_be_run:app --host 0.0.0.0 --port 5000 --reload`로 서버를 먼저 실행한 후, 새 터미널에서 테스트를 진행하세요.
+### ⚠️ `uvicorn run:app --host 0.0.0.0 --port 5000 --reload`로 서버를 먼저 실행한 후, 새 터미널에서 테스트를 진행하세요.
 ---
 
 ##  모델 성능 참고 메모
