@@ -1,3 +1,5 @@
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&text=AI%20PURGO%20CORE&fontSize=65&animation=fadeIn&fontColor=FFF)
+
 # 💬 Purgo - AI 욕설 탐지 및 정화 시스템
 
 FastAPI 기반 웹 서버에서 **FastText + KoBERT + GPT**를 활용하여  
